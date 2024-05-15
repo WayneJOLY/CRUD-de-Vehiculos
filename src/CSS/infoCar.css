@@ -1,0 +1,31 @@
+
+
+.car{
+    width: 300px;
+    height: 185px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.car ul li{
+    list-style: none;
+}
+.car-title{
+    text-align: center;
+}
+
+.car-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
