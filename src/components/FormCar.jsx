@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
-
+import "../CSS/formCar.css"
 const FormCar = ({addCar,editData,updateCar,setEditData}) => {
 
        const {register,handleSubmit,reset,}=useForm()
@@ -29,27 +29,23 @@ const FormCar = ({addCar,editData,updateCar,setEditData}) => {
   return (
     <form onSubmit={handleSubmit(submit)}>
         <div>
-            <label htmlFor="brand">Brand</label>
-            <input {...register('brand')} id="brande" type="text" />
+            <input {...register('brand')} placeholder='Brand' type="text" />
         </div>
         <div>
-            <label htmlFor="model">Model</label>
-            <input {...register('model')} id="model"type='text'/>
+ 
+            <input {...register('model')}   placeholder='Model' type='text'/>
         </div>
         <div>
-            <label htmlFor="color">Color</label>
-            <input {...register('color')}     id="color" type="text" />
+            <input {...register('color')}   placeholder='Color'      type="text" />
         </div>
         <div>
-            <label htmlFor="year">Year</label>
-            <input  {...register('year')}    id="year" type="text" />
+            <input  {...register('year')}   placeholder='Year'     type="text" />
         </div>
         <div>
-            <label htmlFor="price">Price</label>
-            <input {...register('price')}     id="price" type="text" />
+            <input {...register('price')}   placeholder='Price'      type="text" />
         </div>
 
-        <button>submit</button>
+        <button className='submit' >submit</button>
     </form>
   )
 }

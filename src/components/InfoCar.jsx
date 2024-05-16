@@ -15,8 +15,8 @@ const handleEdit=()=>{
         <li> Price :{car.price}</li>
       </ul>
       <div className="car-btn">
-      <button onClick={handleDelete}>Delete</button>
-      <button onClick={handleEdit}>Editar</button>
+      <button onClick={handleDelete} className="delete">Delete</button>
+      <button onClick={handleEdit} className="edit">Edit</button>
       </div>
     </div>
   )

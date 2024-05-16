@@ -14,7 +14,8 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  width: 100vw;
+  padding: 10px auto;
 }
 
 .cars-conrainer{
