@@ -3,7 +3,7 @@ import './App.css'
 import useCRUD from './hooks/useCRUD'
 import FormCar from './components/FormCar'
 import InfoCar from './components/InfoCar'
-const urlBase='http://cars-crud.academlo.tech/'
+const urlBase='https://cars-crud.academlo.tech/'
 
 function App() {
   
