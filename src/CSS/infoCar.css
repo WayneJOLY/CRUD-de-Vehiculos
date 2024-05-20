@@ -31,11 +31,22 @@ button{
     padding: 5px 7px;
     border-radius: 5px;
     cursor: pointer;
+    border:none;
 }
+
 
 .delete{
     background-color: red;
 }
+
+.delete:hover{
+    background-color: rgba(255,0, 0, 0.3);
+}
+
 .edit{
     background-color: blue;
+}
+
+.edit:hover{
+    background-color: rgba(0,0,200,1);
 }
